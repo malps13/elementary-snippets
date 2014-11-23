@@ -1,7 +1,7 @@
 elementary-snippets
 ===================
 
-This repository contains some handy scripts made with Elementary OS in thought, but som of these might actually be OK to work with on other distros as well.
+This repository contains some handy scripts made with Elementary OS in thought, but some of these might actually be OK to work with on other distros as well.
 
 # switch-workspace
 
@@ -9,7 +9,7 @@ Simple script for switching between Elementary OS desktops without additional, e
 
 ## Installation
 
-1. Copy **switch.workspace** file to /usr/local/bin.
-2. Install Elementary Tweaks: **sudo apt-get install elementary-tweaks**
-3. Open **System Settings -> Tweaks** and add new shortcut to **switch-workspace** command
+1. Copy *src/switch.workspace* file to /usr/local/bin.
+2. Install Elementary Tweaks: *sudo apt-get install elementary-tweaks*
+3. Open *System Settings -> Tweaks* and add new shortcut to *switch-workspace* command
 4. Enjoy!
