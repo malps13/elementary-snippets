@@ -9,23 +9,25 @@ Simple script for switching between Elementary OS desktops without additional, e
 
 ## Installation
 
-1. Copy *src/switch.workspace* file to /usr/local/bin.
-2. Install wmctrl:
+Copy *src/switch.workspace* file to /usr/local/bin.  
+
+Install wmctrl:
 ```
 sudo apt-get install wmctrl
 ```
-3. Install xbindkeys:
+Install xbindkeys:
 ```
 sudo apt-get install xbindkeys
 ```
-4. Generate default config for xbindkeys shortcuts:
+Generate default config for xbindkeys shortcuts:
 ```
 xbindkeys --defaults > ~/.xbindkeysrc
 ```
-5. Add switch-workspace to ~/.xbindkeysrc file with your custom shortcut, for example:
+Add switch-workspace to ~/.xbindkeysrc file with your custom shortcut, for example:
 ```
 "switch-workspace"
 alt+q
 ```
-6. Open *System Settings -> Applications -> Startup* and add custom command: xbindkeys
-7. Enjoy!
+Open *System Settings -> Applications -> Startup* and add custom command: xbindkeys  
+
+Enjoy!
