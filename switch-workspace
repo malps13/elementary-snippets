@@ -1,0 +1,11 @@
+#!/bin/bash
+x=0
+i=`wmctrl -d | grep \* | head -c 1`
+n=`wmctrl -d | wc -l`
+let i+=1
+let n-=1
+if [ $i = $n ]
+then
+  let i=0
+fi
+wmctrl -s $i 
